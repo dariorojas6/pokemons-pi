@@ -2,9 +2,18 @@ ul {
   margin: 0;
   padding: 0;
 }
+body{
+ 
+    background:
+    linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+     url('https://www.xtrafondos.com/wallpapers/pokemon-unite-8254.jpg'); 
+     background-size: cover;
+  
+}
 
 .cardCreate {
-  background-color: #fff;
+  background: url('https://cdn.dribbble.com/users/360885/screenshots/2838856/gastly.gif');
+  background-size: cover;
   width: 700px;
   min-height: 420px;
   border-radius: 50px;
@@ -16,17 +25,17 @@ ul {
 .contGral {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+ 
 }
 
-.ash {
+.logo {
   height: 570px;
   position: absolute;
-  right: -110px;
+  right: -330px;
 }
 
-.redTitle {
-  background-color: #eb544d;
+.violetTitle {
+  background-color: #850185;
   width: 100%;
   height: 60px;
   display: flex;
@@ -76,6 +85,7 @@ ul {
   width: 200px;
   border-radius: 20px;
   border: none;
+
   background-color: #f8f7f7;
 }
 
@@ -105,7 +115,7 @@ ul {
 .deleteButton {
   border-radius: 10px;
   border: none;
-  background-color: #eb544d;
+  background-color: #8100bd;
   color: #fff;
   cursor: pointer;
   font-weight: 700;
@@ -125,7 +135,7 @@ ul {
   height: 30px;
   width: 100px;
   border-radius: 8px;
-  background-color: #eb544d;
+  background-color: #3f0092;
   color: #fff;
   font-family: "Rubik", sans-serif;
   cursor: pointer;
@@ -148,20 +158,24 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: 5px;
-  color: #eb544d;
+  color: #000000;
 }
 
 .navBar {
-  background-color: #eb544d;
-  height: 50px;
+  background: url('https://i.gifer.com/2eRn.gif');
+  background-repeat: none;
+  background-size: cover;
+  background-position-y: -300px;
+  height: 40px;
   display: flex;
   align-items: center;
   padding-left: 20px;
+  margin-bottom: 50px;
 }
 
 .buttonHome {
-  cursor: pointer;
-  color: #fff;
+  cursor:pointer;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   border: none;
   font-family: "Rubik", sans-serif;

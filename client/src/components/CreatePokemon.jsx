@@ -132,7 +132,7 @@ function CreatePokemon() {
   };
 
   return (
-    <div>
+    <div className="content">
       <div className={styles.navBar}>
         <img src={izq} alt="izq"></img>
         <Link to="/home">
@@ -141,8 +141,8 @@ function CreatePokemon() {
       </div>
       <div className={styles.contGral}>
         <div className={styles.cardCreate}>
-          <img src={ash} alt="ash" className={styles.ash} />
-          <div className={styles.redTitle}>
+          <img src={ash} alt="ash" className={styles.logo} />
+          <div className={styles.violetTitle}>
             <img src={poke} alt="poke" className={styles.poke}></img>
             <div className={styles.title}>Create your pokemon</div>
           </div>
