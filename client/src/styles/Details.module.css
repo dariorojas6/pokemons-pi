@@ -9,7 +9,7 @@
 }
 
 .barra {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.33);
   height: 20px;
   width: 200px;
@@ -57,15 +57,15 @@
   gap: 20px;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  font-size: 15px;
-  color: #868686;
+  font-size: 20px;
+  color: #bbbbbb;
 }
 
 .number {
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 15px;
-  color: #66625c;
+  color: #ffffff;
 }
 
 .contGral {
@@ -77,10 +77,11 @@
   width: 100%;
 }
 
-.contRed {
+.cont {
   display: flex;
-  background-color: #eb544d;
-  padding: 1rem;
+  background-color: #616161;
+  
+  padding: 8px;
   justify-content: center;
   align-items: center;
   border-radius: 60px;
@@ -88,7 +89,11 @@
 
 .contGris {
   display: flex;
-  background-color: #f8f7f7;
+ background:
+  linear-gradient(rgba(5,7,12,0.50),rgba(5,7,12,0.50))
+  ,url('https://img.freepik.com/vector-gratis/acuarela-real-fondo-rojo-san-valentin_1340-4006.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
@@ -99,8 +104,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #fff;
-  width: 380px;
+  background-color: linear-gradient(rgba(32, 1, 90, 0.877rgba(21, 0, 71, 0.877)8));
+  background-size: cover;
+  width: 480px;
   height: 470px;
   border-radius: 50px;
   box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.1);
@@ -112,6 +118,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  
 }
 
 .contDer {
@@ -133,7 +140,11 @@
 }
 
 .circulo {
-  background-color: rgba(217, 217, 217, 0.582);
+ background: 
+ linear-gradient(rgba(5,7,12,0.50),rgba(5,7,12,0.50))
+ ,url('https://www.grupoyosoy.com/I%20AM%20Activity/Galer%C3%ADa/Llama%20Violeta/VioletFlameANIM_2012_220wx250h.gif');
+ background-size: cover;
+ background-repeat: no-repeat;
   height: 250px;
   width: 250px;
   position: relative;
@@ -147,7 +158,7 @@
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 35px;
-  color: #66625c;
+  color: #ffffff;
 }
 
 .types {
@@ -159,7 +170,7 @@
 }
 
 .types div {
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,9 +203,9 @@
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #66625c;
+  color: #383838;
   gap: 7px;
-  background-color: #fff;
+  background-color: rgb(182, 182, 182);
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.33);
 }
 
@@ -205,12 +216,15 @@
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 25px;
-  color: #868686;
+  color: #ffffff;
 }
 
 .navBar {
-  background-color: #eb544d;
-  height: 50px;
+  background: url('https://i.gifer.com/2eRn.gif');
+  background-repeat: none;
+  background-size: cover;
+  background-position-y: -300px;
+  height: 40px;
   display: flex;
   align-items: center;
   padding-left: 20px;

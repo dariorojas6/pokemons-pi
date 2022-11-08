@@ -48,7 +48,7 @@ function Details() {
 
       {pokemonDetail.length ? (
         <div className={styles.contGral}>
-          <div className={styles.contRed}>
+          <div className={styles.cont}>
             <div className={styles.contGris}>
               <div className={styles.contIzq}>
                 <div className={styles.circulo}>
