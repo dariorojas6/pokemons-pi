@@ -1,0 +1,49 @@
+.bug {
+  background-color: #c2056d;
+  border: 1px solid black;
+}
+
+.fire {
+  background-color: #e96325;
+  border: 1px solid black;
+}
+
+.grass {
+  background-color: #7e7e7e;
+  border: 1px solid black;
+}
+
+.poison {
+  background-color: #a040a0;
+  border: 1px solid black;
+}
+
+.water {
+  background-color: #4073eb;
+  border: 2px solid black;
+}
+
+.flying {
+  background-color: #9096f0;
+  border: 2px solid black;
+}
+
+.normal {
+  background-color: #a8a8a8;
+  border: 1px solid black;
+}
+
+.fairy {
+  background-color: #f09ad9;
+  border: 1px solid black;
+}
+
+.electric {
+  background-color: #c09643;
+  border: 1px solid black;
+}
+
+.ground {
+  background-color: #e0b668;
+  border: 1px solid black;
+}

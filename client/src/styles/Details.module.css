@@ -1,0 +1,258 @@
+.pokeball {
+  height: 200px;
+}
+
+.poke {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra {
+  background-color: #fff;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.33);
+  height: 20px;
+  width: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.attack {
+  height: 100%;
+  background-color: #eb544d;
+  max-width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.hp {
+  height: 100%;
+  background-color: #22c02a;
+  max-width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.defense {
+  height: 100%;
+  background-color: #f4ea53;
+  max-width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.speed {
+  height: 100%;
+  background-color: #33aeaf;
+  max-width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.filaStat {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #868686;
+}
+
+.number {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #66625c;
+}
+
+.contGral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.contRed {
+  display: flex;
+  background-color: #eb544d;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+}
+
+.contGris {
+  display: flex;
+  background-color: #f8f7f7;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.contIzq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+  width: 380px;
+  height: 470px;
+  border-radius: 50px;
+  box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.infoBasica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.contDer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  width: 380px;
+  height: 470px;
+  border-radius: 50px;
+}
+
+.image {
+  min-height: 250px;
+  max-width: 250px;
+  position: absolute;
+  /* object-fit: cover; */
+}
+
+.circulo {
+  background-color: rgba(217, 217, 217, 0.582);
+  height: 250px;
+  width: 250px;
+  position: relative;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: #66625c;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+}
+
+.types div {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.id {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #66625c;
+  max-width: 50%;
+  text-align: center;
+}
+
+.alturaPeso {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.medidas {
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #66625c;
+  gap: 7px;
+  background-color: #fff;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.33);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #868686;
+}
+
+.navBar {
+  background-color: #eb544d;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.buttonHome {
+  cursor: pointer;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+
+.deleteButton {
+  font-family: "Rubik", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #868686;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+.deleteButton:hover {
+  color: rgb(255, 255, 255);
+  background-color: #e93228;
+  border: none;
+}
+
+.buttonRed {
+  background-color: #eb544d;
+}
