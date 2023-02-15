@@ -6,7 +6,8 @@ import styles from "../styles/Error.module.css";
 
 function Error() {
   const dispatch = useDispatch();
-
+  
+  // Manejador para mostrar contenido del Home:
   const handleHome = (ev) => {
     ev.preventDefault();
     dispatch(setError(false));
@@ -17,11 +18,11 @@ function Error() {
     <div className={styles.contError}>
       <img src={psyduck} alt="psyduck" className={styles.psyduck} />
       <div className={styles.texto}>
-        <div className={styles.text}>Oh no!</div>
-        <div className={styles.parrafo}>Can't find what you're looking for</div>
+        <div className={styles.text}>Error!</div>
+        <div className={styles.parrafo}>Sorry, what you are looking for was not found!</div>
       </div>
       <button onClick={(e) => handleHome(e)} className={styles.button}>
-        Return to home
+      ⬅ Return
       </button>
     </div>
   );

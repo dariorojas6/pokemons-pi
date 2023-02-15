@@ -154,7 +154,7 @@ function EditPokemon() {
       <div className={styles.contGral}>
         <div className={styles.cardCreate}>
           <img src={ash} alt="ash" className={styles.ash} />
-          <div className={styles.redTitle}>
+          <div className={styles.violetTitle}>
             <img src={poke} alt="poke" className={styles.poke}></img>
             <div className={styles.title}>Edit your pokemon</div>
           </div>

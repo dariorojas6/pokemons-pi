@@ -4,7 +4,7 @@ ul {
 }
 
 .cardCreate {
-  background-color: #fff;
+  background: url('https://cdn.dribbble.com/users/360885/screenshots/2838856/gastly.gif');
   width: 700px;
   min-height: 420px;
   border-radius: 50px;
@@ -25,8 +25,8 @@ ul {
   right: -160px;
 }
 
-.redTitle {
-  background-color: #eb544d;
+.violetTitle {
+  background-color: #850185;
   width: 100%;
   height: 60px;
   display: flex;
@@ -152,8 +152,12 @@ ul {
 }
 
 .navBar {
-  background-color: #eb544d;
+  background: url('https://i.gifer.com/2eRn.gif');
+  background-repeat: none;
+  background-size: cover;
+  background-position-y: -300px;
   height: 50px;
+
   display: flex;
   align-items: center;
   padding-left: 20px;

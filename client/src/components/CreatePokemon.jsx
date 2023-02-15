@@ -57,6 +57,7 @@ function CreatePokemon() {
   });
 
   let btnDisabled =
+// si el input no tiene caracteres
     !(
       input.name.length &&
       input.hp.length &&
@@ -65,14 +66,20 @@ function CreatePokemon() {
       input.speed.length &&
       input.types.length
     ) ||
+    // si el input los caracteres son mayores a 150
     input.hp > 150 ||
     input.attack > 150 ||
     input.defense > 150 ||
     input.speed > 150;
 
+// de forma predeterminada mostrar todos los tipos:
   useEffect(() => {
     dispatch(getTypes());
+    return () => {
+    }
   }, [dispatch]);
+
+ // de forma predeterminada mostrar todos los errores:
 
   useEffect(() => {
     setErrors(
@@ -132,7 +139,7 @@ function CreatePokemon() {
   };
 
   return (
-    <div className="content">
+    <div id="content">
       <div className={styles.navBar}>
         <img src={izq} alt="izq"></img>
         <Link to="/home">
@@ -209,6 +216,10 @@ function CreatePokemon() {
                 </div>
 
                 <div>
+                  <select>
+                    onChange={(e) => handleSelect(e)}
+                    
+                  </select>
                   <select
                     onChange={(e) => handleSelect(e)}
                     className={styles.select}
@@ -295,6 +306,7 @@ function CreatePokemon() {
                     className={styles.inputs}
                   />
                 </div>
+
 
                 <div>
                   <div>Image:</div>

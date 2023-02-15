@@ -9,7 +9,7 @@ import {
 } from "../actions";
 import styles from "../styles/Details.module.css";
 import "../styles/index.css";
-import pokeball from "../styles/Gifs/pokeball.gif";
+import loading from "../styles/Gifs/loading.gif";
 import izq from "../styles/Images/chevron-left2.png";
 
 function Details() {
@@ -178,7 +178,7 @@ function Details() {
         </div>
       ) : (
         <div className={styles.poke}>
-          <img src={pokeball} alt="pokeball" className={styles.pokeball} />
+          <img src={loading} alt="loading" className={styles.loading} />
         </div>
       )}
     </div>
